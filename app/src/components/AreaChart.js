@@ -26,14 +26,14 @@ class AreaChart extends React.Component {
         {
           name: 'Feisal',
           data: generateDayWiseTimeSeries(new Date('11 Feb 2017 GMT').getTime(), 20, {
-            min: 0,
+            min: 2,
             max: 20
           })
         },
         {
           name: 'Robin',
           data: generateDayWiseTimeSeries(new Date('11 Feb 2017 GMT').getTime(), 20, {
-            min: 0,
+            min: 1,
             max: 35
           })
         },
@@ -41,14 +41,14 @@ class AreaChart extends React.Component {
           name: 'Mohamed',
           data: generateDayWiseTimeSeries(new Date('11 Feb 2017 GMT').getTime(), 20, {
             min: 0,
-            max: 50
+            max: 25
           })
         },
         {
           name: 'Abdoulaye',
           data: generateDayWiseTimeSeries(new Date('11 Feb 2017 GMT').getTime(), 20, {
-            min: 5,
-            max: 30
+            min: 0,
+            max: 32
           })
         }
       ],
@@ -63,7 +63,7 @@ class AreaChart extends React.Component {
             }
           },
         },
-        colors: ['#008FFB', '#00E396', '#CED4DC'],
+        colors: ['#024571', '#5DC1BE', '#F6CF22', '#C9DF61'],
         dataLabels: {
           enabled: false
         },

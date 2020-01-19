@@ -13,6 +13,7 @@ class RadialBarBasic extends React.Component {
           height: 350,
           type: 'radialBar',
         },
+        colors: ['#024571'],
         plotOptions: {
           radialBar: {
             hollow: {

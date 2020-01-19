@@ -13,18 +13,19 @@ import ReactApexChart from 'react-apexcharts';
           height: 350,
           type: 'radialBar',
         },
+        colors: ['#024571', '#5DC1BE', '#F6CF22', '#7E0C33'],
         plotOptions: {
           radialBar: {
             dataLabels: {
               name: {
-                fontSize: '22px',
+                fontSize: '16px',
               },
               value: {
                 fontSize: '16px',
               },
               total: {
                 show: true,
-                label: 'Tasks Done',
+                label: 'Tasks Complete',
                 formatter: function (w) {
                   // By default this function returns the average of all series. The below is just an example to show the use of custom formatter function
                   return 249

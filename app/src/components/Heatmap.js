@@ -95,25 +95,25 @@ class Heatmap extends React.Component {
                   from: -30,
                   to: 5,
                   name: 'low',
-                  color: '#00A100'
+                  color: '#C9DF61'
                 },
                 {
                   from: 6,
                   to: 20,
                   name: 'medium',
-                  color: '#128FD9'
+                  color: '#5DC1BE'
                 },
                 {
                   from: 21,
                   to: 45,
                   name: 'high',
-                  color: '#FFB200'
+                  color: '#F6CF22'
                 },
                 {
                   from: 46,
                   to: 55,
                   name: 'extreme',
-                  color: '#FF0000'
+                  color: '#AF3C43'
                 }
               ]
             }
@@ -123,7 +123,7 @@ class Heatmap extends React.Component {
           enabled: false
         },
         title: {
-          text: 'HeatMap Chart with Color Range'
+          text: 'Task Completion by Priority'
         },
       },
 
