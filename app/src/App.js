@@ -99,7 +99,7 @@ function App() {
             <img src={member4} className="member-icon"/>
           </Row>
           <Row>
-            <h4>
+            <h5>
               <Badge color="secondary" className="badge">#TBS</Badge>
               <Badge color="secondary" className="badge">#gccollab</Badge>
               <Badge color="secondary" className="badge">#data visualization</Badge>
@@ -107,7 +107,7 @@ function App() {
               <Badge color="secondary" className="badge">#React</Badge>
               <Badge color="secondary" className="badge">#Node</Badge>
               <Badge color="secondary" className="badge">#Firebase</Badge>
-            </h4>
+            </h5>
           </Row>
           <Row>
           </Row>
@@ -115,13 +115,13 @@ function App() {
           <Row>
             <Col>
               <div className="justify-center">
-                <h4>Project Timeline</h4>
+                <h5>Project Timeline</h5>
               </div>
               <GanttChart />
             </Col>
             <Col>
               <div className="justify-center">
-                <h4>Team Contributions</h4>
+                <h5>Team Contributions</h5>
               </div>
               <AreaChart />
             </Col>
@@ -129,7 +129,7 @@ function App() {
           <Row>
             <Col>
               <div className="justify-center">
-                <h4>Current Progress</h4>
+                <h5>Current Progress</h5>
               </div>
             </Col>
           </Row>
@@ -153,7 +153,7 @@ function App() {
           <Row>
             <Col>
               <div className="justify-center">
-                <h4>Task Completion Timeline by Priority</h4>
+                <h5>Task Completion Timeline by Priority</h5>
               </div>
               <Heatmap />
             </Col>
@@ -161,7 +161,7 @@ function App() {
           <Row>
             <Col>
               <div className="justify-center">
-                <h4>Kanban Board</h4>
+                <h5>Kanban Board</h5>
               </div>
               <Board
                 data={data}
