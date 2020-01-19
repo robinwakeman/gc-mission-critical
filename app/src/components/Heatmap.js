@@ -94,25 +94,25 @@ class Heatmap extends React.Component {
               ranges: [{
                   from: -30,
                   to: 5,
-                  name: 'low',
+                  name: 'Low',
                   color: '#C9DF61'
                 },
                 {
                   from: 6,
                   to: 20,
-                  name: 'medium',
+                  name: 'Medium',
                   color: '#5DC1BE'
                 },
                 {
                   from: 21,
                   to: 45,
-                  name: 'high',
+                  name: 'High',
                   color: '#F6CF22'
                 },
                 {
                   from: 46,
                   to: 55,
-                  name: 'extreme',
+                  name: 'Extreme',
                   color: '#AF3C43'
                 }
               ]
@@ -122,9 +122,6 @@ class Heatmap extends React.Component {
         dataLabels: {
           enabled: false
         },
-        title: {
-          text: 'Task Completion by Priority'
-        },
       },
 
 
@@ -133,9 +130,11 @@ class Heatmap extends React.Component {
 
   render() {
     return (
-      <div id="chart">
-        <ReactApexChart options={this.state.options} series={this.state.series} type="heatmap" height={350} />
-      </div>
+      <React.Fragment>
+        <div id="chart">
+          <ReactApexChart options={this.state.options} series={this.state.series} type="heatmap" height={350} />
+        </div>
+      </React.Fragment>
     );
   }
 }

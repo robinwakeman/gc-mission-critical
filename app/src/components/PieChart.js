@@ -13,7 +13,7 @@ class PieChart extends React.Component {
           width: 380,
           type: 'pie',
         },
-        colors: ['#AF3C43', '#5DC1BE', '#C9DF61'],
+        colors: ['#7E0C33', '#5DC1BE', '#C9DF61'],
         labels: ['To Do', 'In Progress', 'Done'],
         responsive: [{
           breakpoint: 400,

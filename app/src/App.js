@@ -33,9 +33,9 @@ function App() {
       title: 'Unassigned',
       label: '3/10',
       cards: [
-        {id: 'Card10', title: 'Task 10', description: 'Can AI make memes', label: '30 mins'},
-        {id: 'Card9', title: 'Task 9', description: 'Transfer via NEFT', label: '5 mins'},
-        {id: 'Card8', title: 'Task 8', description: 'Transfer via NEFT', label: '5 mins'}
+        {id: 'Card10', title: 'Task 10', description: 'Analysis: clean data, extract it, and do more data-scienc-y things', label: 'Priority: High'},
+        {id: 'Card9', title: 'Task 9', description: 'Development: refactor application layer code ', label: 'Priority: Low'},
+        {id: 'Card8', title: 'Task 8', description: 'Marketing: make some more word salad for this kanban board', label: 'Priority: Medium'}
       ]
     },
     {
@@ -43,8 +43,8 @@ function App() {
       title: 'To Do',
       label: '2/10',
       cards: [
-        {id: 'Card7', title: 'Task 7', description: 'Can AI make memes', label: '30 mins'},
-        {id: 'Card6', title: 'Task 6', description: 'Transfer via NEFT', label: '5 mins'}
+        {id: 'Card7', title: 'Task 7', description: 'Development: add Scrollable to main Component or something', label: 'Priority: Medium'},
+        {id: 'Card6', title: 'Task 6', description: 'Design: redo everything', label: 'Priority: Low'}
       ]
     },
     {
@@ -52,10 +52,10 @@ function App() {
       title: 'In Progress',
       label: '4/10',
       cards: [
-        {id: 'Card5', title: 'Task 5', description: 'Can AI make memes', label: '30 mins'},
-        {id: 'Card4', title: 'Task 4', description: 'Transfer via NEFT', label: '5 mins'},
-        {id: 'Card3', title: 'Task 3', description: 'Can AI make memes', label: '30 mins'},
-        {id: 'Card2', title: 'Task 2', description: 'Transfer via NEFT', label: '5 mins'}
+        {id: 'Card5', title: 'Task 5', description: 'Development: refactor to make this app actually functional', label: 'Priority: Low'},
+        {id: 'Card4', title: 'Task 4', description: 'Development: connect to Firebase API', label: 'Priority: High'},
+        {id: 'Card3', title: 'Task 3', description: 'Deployment: upload to Digital Ocean droplet', label: 'Priority: High'},
+        {id: 'Card2', title: 'Task 2', description: 'Analysis: meet with stakeholders to review requirements', label: 'Priority: Low'}
       ]
     },
     {
@@ -63,7 +63,7 @@ function App() {
       title: 'Completed',
       label: '1/10',
       cards: [
-        {id: 'Card1', title: 'Task 1', description: 'Can AI make memes', label: '30 mins'},
+        {id: 'Card1', title: 'Task 1', description: 'Design: create wireframes, colour palette, font set', label: 'Priority: High'},
       ]
     }
   ]
@@ -110,11 +110,27 @@ function App() {
             </h4>
           </Row>
           <Row>
+          </Row>
+            <br/>
+          <Row>
             <Col>
+              <div className="justify-center">
+                <h4>Project Timeline</h4>
+              </div>
               <GanttChart />
             </Col>
             <Col>
+              <div className="justify-center">
+                <h4>Team Contributions</h4>
+              </div>
               <AreaChart />
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <div className="justify-center">
+                <h4>Current Progress</h4>
+              </div>
             </Col>
           </Row>
           <Row className="justify-center">
@@ -136,15 +152,21 @@ function App() {
           </Row>
           <Row>
             <Col>
+              <div className="justify-center">
+                <h4>Task Completion Timeline by Priority</h4>
+              </div>
               <Heatmap />
             </Col>
           </Row>
           <Row>
             <Col>
-            <Board
-              data={data}
-              style={{backgroundColor: '#024571'}}
-            />
+              <div className="justify-center">
+                <h4>Kanban Board</h4>
+              </div>
+              <Board
+                data={data}
+                style={{backgroundColor: '#024571'}}
+              />
             </Col>
           </Row>
         </Container>
