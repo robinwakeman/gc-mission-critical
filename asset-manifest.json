@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/robinwakeman/gc-mission-critical/static/css/main.9191a6f6.chunk.css",
+    "main.js": "/robinwakeman/gc-mission-critical/static/js/main.6b3faacf.chunk.js",
+    "main.js.map": "/robinwakeman/gc-mission-critical/static/js/main.6b3faacf.chunk.js.map",
+    "runtime-main.js": "/robinwakeman/gc-mission-critical/static/js/runtime-main.fc5f0d33.js",
+    "runtime-main.js.map": "/robinwakeman/gc-mission-critical/static/js/runtime-main.fc5f0d33.js.map",
+    "static/css/2.67123b20.chunk.css": "/robinwakeman/gc-mission-critical/static/css/2.67123b20.chunk.css",
+    "static/js/2.e4e79c1c.chunk.js": "/robinwakeman/gc-mission-critical/static/js/2.e4e79c1c.chunk.js",
+    "static/js/2.e4e79c1c.chunk.js.map": "/robinwakeman/gc-mission-critical/static/js/2.e4e79c1c.chunk.js.map",
+    "index.html": "/robinwakeman/gc-mission-critical/index.html",
+    "precache-manifest.be75535a2364037955a2c64449cea38c.js": "/robinwakeman/gc-mission-critical/precache-manifest.be75535a2364037955a2c64449cea38c.js",
+    "service-worker.js": "/robinwakeman/gc-mission-critical/service-worker.js",
+    "static/css/2.67123b20.chunk.css.map": "/robinwakeman/gc-mission-critical/static/css/2.67123b20.chunk.css.map",
+    "static/css/main.9191a6f6.chunk.css.map": "/robinwakeman/gc-mission-critical/static/css/main.9191a6f6.chunk.css.map",
+    "static/js/2.e4e79c1c.chunk.js.LICENSE": "/robinwakeman/gc-mission-critical/static/js/2.e4e79c1c.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fc5f0d33.js",
+    "static/css/2.67123b20.chunk.css",
+    "static/js/2.e4e79c1c.chunk.js",
+    "static/css/main.9191a6f6.chunk.css",
+    "static/js/main.6b3faacf.chunk.js"
+  ]
+}
