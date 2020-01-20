@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/robinwakeman/gc-mission-critical/precache-manifest.be75535a2364037955a2c64449cea38c.js"
+  "/robinwakeman/gc-mission-critical/precache-manifest.66ee6e19cd3a219d07d6ec970e66a49e.js"
 );
 
 self.addEventListener('message', (event) => {
